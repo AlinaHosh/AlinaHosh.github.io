@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap');
+html,body
+{
+height: 100%;
+background-color: black;
+background-image: url(https://i.gifer.com/IrM.gif);
+background-position: center;
+background-size: 100%;
+}
+h1,h2{
+    color:rgb(174, 174, 175);  
+    text-align: center;
+}
+.shar{
+   display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+     align-self: center; 
+     margin: auto;
+border: rgb(4, 3, 17) solid 1px;
+border-radius: 50%;
+background: radial-gradient(circle,rgb(27, 27, 27)10%,#25272c 30%,rgb(98, 100, 110) 60%, rgb(148, 147, 147) 80%);
+        width:500px;
+        height:500px;
+        animation-duration: 0.1s;
+        animation-name:  tremor;
+        animation-timing-function:  linear ;  
+        animation-iteration-count: 1;  
+}
+@keyframes tremor { 
+    0%, 25% {
+        left: -1px;
+        top:-1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        top: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+.button{
+    background: transparent;
+    border-color: transparent;
+    color:rgb(174, 174, 175);
+    border: none;
+  
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+  
+    animation-duration: 0.1s;
+    animation-name:  tremor;
+    animation-timing-function:  linear ;  
+    animation-iteration-count: 1;
+}
+.pred{
+    color:rgb(174, 174, 175);
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width:500px;
+    height: 30px;
+    font-size: 25px;
+    justify-content: center; 
+    margin: auto;   
+}
+
+
+
+
+
+
