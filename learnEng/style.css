@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap');
+html,body
+{
+    height: 100%;
+    overflow-y: hidden;
+background-color:#f7f7f7;
+}
+.field{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: auto;
+    align-self: center; 
+    margin: auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	width:100%;
+	height:5%;
+	background-color:rgb(171, 171, 201);
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  align-self:center;
+    margin:auto;
+  width:500px;
+  height:300px;
+  margin-top:20px;
+  background-color:white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px white;
+  }
+.main{
+	display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-self: center; 
+    margin: auto;
+}
+#translate{
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    width:200px;
+    height: 30px;
+}
+#name{
+    font-size: 60px;
+    
+    margin-top:10px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+#wordOnCard{
+	font-size: 30px;
+	text-align: center;	
+}
+#trOnCard{
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;	 
+   
+}
+#carousel{
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    margin-top:10px;
+    color: #a54949;
+}
+#attention{
+    font-size: 25px;
+    align-self: center;
+    color: #a54949;
+    font-weight: bolder;
+}
+#statistika{
+    margin: auto;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+}
+.result{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.inf{
+    display:flex;
+    flex-direction:column;
+    align-self: center; 
+    margin: auto;
+}
+#but1{
+    display:flex;
+    flex-direction:column;
+    align-self: center; 
+    justify-content: space-between;
+ margin:auto;
+}
+button{
+    color:rgb(171, 171, 201); 
+    border: 4px solid rgb(171, 171, 201);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 150px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  }
+
+
+
+
+
